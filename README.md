@@ -1,4 +1,4 @@
-# JSD Mapping
+# JSD Mapping | 1ST Update: Special FX
 
 ## Introduction
 
@@ -16,7 +16,7 @@ Exported skills are Base91 + zlib. After decompress you get JSON with short keys
 
 | File | Use |
 |---|---|
-| `mapping.json` | Everything keyed by ingame  name. |
+| `mapping.json` | Everything keyed by ingame name. |
 | `unmapped-skill-example.json` | An example skill with almost everything in the game, decompressed & unmapped. |
 | `mapped-skill-example.json` | The mapped version of the example skill. |
 
@@ -68,7 +68,7 @@ Every node that has a Targeting dropdown stores it as **`p.ab`**.
 
 Mapped name: `target`.
 
-`ab` is not Attach To. Attach To is a different key (Hitbox `p.k`, Mesh FX `p.e`, …).
+`ab` is not Attach To. Attach To is a different key (Hitbox `p.k`, Mesh FX `p.e`, Special FX `p.e`, …).
 
 ## Opcodes
 
@@ -191,6 +191,61 @@ Confirmed against SB ^_^:
 | hs | hitStyle | |
 | m | mode | |
 
+## Special FX (`i = 31`)
+
+One shared property area lol. It **relabels the same keys** depending on `p.1` (the effect type). Switching effects does **not** clear unused keys, so leftovers from the previous type stay in the JSON (w optimization).
+
+`p.1` omitted = **Highlight** (the default).
+
+| key | mapped | notes |
+|---|---|---|
+| 1 | effect | `"Outline"`, `"FieldOfView"`, `"Mesh"`, … |
+| 2 | amount | also Mesh Id / Day Offset, stored as a string |
+| 3 | speed | also Texture Id, stored as a string |
+| 4 | color | color sequence `[[t,R,G,B,A], …]` |
+| 5 | transparency | number sequence. UI also uses this as Strength / Brightness |
+| 6 | scale | number sequence |
+| 7 | time | `[min, max]`. UI often shows it as `min.max` |
+| a | saturation | number sequence. Color Correction uses this |
+| b | flag | reused bool: Always On Top / Is Neon / Allow Camera Shake |
+| e | attachTo | `"Character"` default (omitted), also `"Head"`, `"Root Part"` |
+| s | smoothing | `"Linear"` default (omitted), `"Bezier"`, `"Constant"` |
+| r | range | |
+| ox / oy / oz | positionX/Y/Z | number sequences |
+| sx | size | 3-axis size/scale curves |
+| rx / ry / rz | orientationX/Y/Z | number sequences |
+| ab | target | Targeting |
+| av | visibleTo | `"Non-User"`, `"Non-Target"` |
+| ad | adornee | `"User"` (Blur). omitted = default |
+
+Effect types:
+
+`Highlight`, `Outline`, `FieldOfView`, `ScreenGlass`, `Distortion`, `Reverberate`, `Vignette`, `ColorCorrection`, `Mesh`, `Light`, `Daytime`, `Afterimage`, `Blood`, `Camera`, `Blur`, `Visibility`, `Infinity`
+
+Mapped in-game Names to Keys:
+
+| Effect | Fields |
+|---|---|
+| Highlight | Position (ox/oy/oz), Size (sx), Smoothing (s), Visible To (av), Attach To (e), Targeting (ab), Color (4) |
+| Outline | Always On Top (b), Color (4), Transparency (5), Time (7), Visible To, Attach To, Targeting |
+| FieldOfView | Range (r), Smoothing (s), Visible To, Attach To, Targeting |
+| ScreenGlass | Amount (2), Scale (6), Time (7), Visible To, Attach To, Targeting |
+| Distortion | Amount (2), Scale (6), Time (7), Visible To, Attach To, Targeting |
+| Reverberate | Color (4), Strength (5), Time (7), Position (ox/oy/oz) |
+| Vignette | Color (4), Transparency (5), Scale (6), Time (7) |
+| ColorCorrection | Color (4), Brightness (5), Saturation (a), Time (7), Range (r) |
+| Mesh | Mesh Id (2), Texture Id (3), Is Neon (b), Color (4), Transparency (5), Scale (6), Time (7) |
+| Light | Is Neon (b), Color (4), Transparency (5), Time (7), Range (r), Position |
+| Daytime | Day Offset (2), Duration (7), Range (r) |
+| Afterimage | Duration (7), Range (r) |
+| Blood | Is Neon (b), Color (4), Transparency (5), Time (7), Range (r), Position, Orientation, Smoothing, Visible To, Attach To, Targeting |
+| Camera | Amount (2), Speed (3), Color (4), Transparency (5), Time (7), Visible To, Attach To, Targeting |
+| Blur | Allow Camera Shake (b), Time (7), Range (r), Position, Orientation, Smoothing (s), Adornee (ad), Visible To, Attach To |
+| Visibility | Scale (6), Time (7), Range (r), Visible To, Attach To, Targeting |
+| Infinity | Color (4), Transparency (5), Scale (6), Time (7), Visible To, Attach To, Targeting |
+
+Full per-effect field list also lives under `nodes.SpecialFX.variants` in `mapping.json`.
+
 ## Value wrappers
 
 Most optional / toggleable fields look like:
@@ -215,4 +270,4 @@ Unknown keys should be left as-is so new fields are not dropped.
 
 • I am not responsible for however people use this repo, this is for Educational Purposes only <3.
 
-• Not EVERYTHING may be mapped yet, but most. 
+• Not EVERYTHING may be mapped yet, but most.
