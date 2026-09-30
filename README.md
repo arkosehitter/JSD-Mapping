@@ -4,7 +4,7 @@
 
 This is a Repository to help people understand JSD's (Jump Showdown's) Compact data they use for skills. By reversing their keys & whatnot I managed to map almost everything. This will be updated as much as possible, and if you're wondering, no JJS doesnt need one of these repos, as their JSON is readable.
 
-Exported skills are Base91 + zlib. After decompress you get JSON with short keys (`i`, `p`, `ab`, `"1"`, `"ht"`, …). This repo maps those keys to the labels in the Skill Builder UI.
+Exported skills are Base91 + zlib. After decompress you get JSON with short keys (`i`, `p`, `ab`, `"1"`, `"ht"`, …). This repo maps those keys to the labels in SB.
 
 ## Credits
 
