@@ -1,0 +1,2713 @@
+{
+  "_editable": true,
+  "_format": "jsd-skill",
+  "_map": "/home/container/jsd.map.json",
+  "version": 0,
+  "name": "The Everything Skill",
+  "displayName": "Everyting in JSD BM",
+  "toolTip": "Tool Tip",
+  "cooldown": 0,
+  "speedMultiplier": 1.0999999999999999,
+  "damageMultiplier": 1.0999999999999999,
+  "ragdollMultiplier": 1.0999999999999999,
+  "knockbackMultiplier": 1.0999999999999999,
+  "walkspeedDivider": 3.5,
+  "extraA": 100,
+  "branches": [
+    {
+      "name": "Regular",
+      "flashColor": {
+        "mode": 1,
+        "value": [
+          255,
+          255,
+          255,
+          1
+        ]
+      },
+      "conditions": [],
+      "nodes": [
+        {
+          "type": "Wait",
+          "id": 39,
+          "props": {
+            "time": 1.5
+          }
+        },
+        {
+          "type": "Skill",
+          "id": 29,
+          "tags": [
+            "Skill Block 1 (With Most Settings On)"
+          ],
+          "props": {
+            "skill": "Title Card",
+            "power": 1.0999999999999999,
+            "damageMultiplier": 1.25,
+            "activeTime": 1.5,
+            "knockback": 1.75,
+            "ragdoll": 2,
+            "size": [
+              1.5,
+              1.5,
+              1.5
+            ],
+            "offset": [
+              1,
+              1,
+              1
+            ],
+            "blockable": true,
+            "cancellable": true,
+            "hitsRagdoll": true,
+            "animated": {
+              "mode": 0,
+              "value": false
+            },
+            "concurrent": true,
+            "finishers": {
+              "mode": 0,
+              "value": false
+            },
+            "cancelPrevious": {
+              "mode": 0,
+              "value": false
+            }
+          }
+        },
+        {
+          "type": "Skill",
+          "id": 29,
+          "tags": [
+            "Skill Block 2 (With Most Settings Off)"
+          ],
+          "props": {
+            "skill": "Fraction of Power",
+            "power": 0.8,
+            "damageMultiplier": 0.95,
+            "activeTime": 0.8,
+            "knockback": 0.65,
+            "ragdoll": 0.8,
+            "size": [
+              1.5,
+              1.5,
+              1.5
+            ],
+            "offset": [
+              1,
+              1,
+              1
+            ],
+            "flagC": false,
+            "flagB": false,
+            "flagD": false,
+            "flagF": false,
+            "animated": {
+              "mode": 0,
+              "value": true
+            },
+            "finishers": {
+              "mode": 0,
+              "value": true
+            },
+            "flagE": false,
+            "cancelPrevious": {
+              "mode": 0,
+              "value": true
+            },
+            "flagG": false
+          }
+        },
+        {
+          "type": "Animation",
+          "id": 4,
+          "tags": [
+            "Animation"
+          ],
+          "props": {
+            "animation": "Attacks/Gojo/Singularity Red/Hit",
+            "span": [
+              0,
+              1
+            ],
+            "speed": 1.0999999999999999,
+            "fadeIn": 0.15,
+            "fadeOut": 0.3,
+            "cancellable": false,
+            "cancelPrevious": false,
+            "orientation": [
+              0,
+              -5,
+              0
+            ],
+            "target": "Target",
+            "lookVector": [
+              0,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "type": "CustomAnim",
+          "id": 11,
+          "tags": [
+            "Custom Animation"
+          ],
+          "props": {
+            "data": "lx#QJ)]Tu6q1e0-yB[$0d%B5vnF,=9EROt6(IayP~UJ!^6hE(a[.gM8gv3^][(4;G({->^eJX4YvN-2B[O`V5#[of05kj8q)??)rX>ad2yYD2$-5e;[g4g_S{.pQtE(<gEbxmu#NfE_xd<.=x_nHcjyrNcY4M$xnC?U{9%S._bZ[:;*lc>:+Z)[_ar&f+pY1ET/!>7U*3R&Zmib4/D:N$EtaOE0-Wes]KhS<nC2pN-9v]P5J:NBDJ,WP=r*k/X;t8]84S]oGQdd8AU=Uq(X4d8tuT4J*rWGF??QhOkLU6>;,@H{>!=;|D,rZ;hiDrIS{XrBg#s?-T9_RonU7OI7LL3jv:=BcG.61E9TTL!vz&d()Xb*g$M0|vGSa]v&+geK@c>Z#>pmM,b3T(4L4y2,=gx1yIBE1ENG_H=2Ed9E3S{qg;{tu:@8-1GM5&z`}NJbliTmKXY=Nv+KHH+x]~i$kdfs8Rphp<i7{b%#`l%QLuo2NGwE&.oD.-oqAUFn2dX9HV,[_JH?:])[m=pHGsK4d?z:Dk0{jpHF<Q]sx]wH+FYsAH=nvR[970`1B,>_%bo]!4{KV48$St,kkJ?pj&*81g=Gf95$[;&Z$J=?cfC~mZ/p>x)RtAfNT[T3%ge4exV7$Qo:>Qrknhe{E<VC/Pxv&$/<dM!=>c_t32NA1iC?+j&O$Tsa9~77N8|zSp6@{7-vP[loj6@?/o[[gt)uHg3u.e5`T+VHc8`0}=@^:*/w>%H`@O{dK_~!4f;%8Tz`$tWFchygs@31Z){ccGlY&Cr|e-rI10`<%d.CZoJe@To#;9xnkbo8.[U-Mr5oEN*^kMuH4_Q>p|-.*VyKotm94p;Er7u>4S3Migy7hqG=|[wPt1wo[BnmC5{0RR2_>AIL+tYee~Grdu+GuN-j,U*OM+iyV>V#tnScB{0zj^E.Fk*P(W>>eCs_d%h0c~4_Z|habA;hA&Kf*x,-{ix3/d#6?OHL(=-3iQAuz~_ASk/%L]/57R9>37r|pd3,``*pEysb2jA4CKrJf*e>Vz6+F=G~=wfU>[][aak17|7EKMSz?mkXo8.<5_=:=:/c.5D*V.3vOL,l|hxsfaV]g,v3&_!&kEVKc3H*GeXvtw/z#3GgM6Z(HkBA3*>P7:-_wxum1&@7l*QE&{G2K=^jT[kZ>~`|%Ru>wB;;v?iXk;[mZ9HLV]?f,n+5+3pn>|=@^<X@pf+#FFz7*/s/!_KCiNX7*%i0prv,FLu)5nju=qii_w!o&,B=6wPAh^R~0tm3)/YvjEP!-,U;#4d={te2v{wR+h0[-a$vhb@l.6iTtef}O1.j;jOj3Xtyn1O7Wapv+]>Pb!lhbq}S|:1Oo]Ky3oOjTeCw1=hg0XBWOp3+,8t&lxSDH^D<}A[#-B8S*[>6,Yr7/qJ[*ZMG]i{3ZLz97|3/9mDQIJx}sM%.f:[51de.!t{wrh/|6Lz2_>3nGG+Vy[mFm]ssRQ=PGVIjs=;2(5_Qi;658aI+T+(%qK.7+soB_fd@h>;dKj[{jy^ow,Z9PqhA:7b$V^I5wa8Ri#Q=%wm!=]p$@b.`r1?}>yW+OiU>fz+U?|H5;LT-hFZ,Yugu{P.~[R[u{<cxl;OKqvo0EX73fjTOqm%4,)^MHHc)r]w5&45W7ko^UUfp)W@7Z*NyQ[EX76x=m:9!dVJ$pJoXoJLVD6GlN3@?@LNZSunu*3}^]T{)JJ[sw;x+%l>D?PIajjrN{WzO/hi-w5X`4^J7/hZ5+kj}`%_~bW[.{p^V)#-e3r9aK@IS=e7?5BC*2RP:PM1;Zvfao|x(|zO19GzFHuI;D!G4fPV1N@}^oNvT{d_Z?G~F1~G`x{%o(Z+jatPzNQ6NFMO<R>U9@_HaX|MtZ+wL^9zR]:3oT0F/%`p^IE$#bU:sS#~y>Au*n5iLzE|nTo^bQRgc>j5EIqKLf,xDxEjM@7nNmi.n:DxBh2ee{RL.QG[MSY*rW}eyUvxRw,vDxbOC4F.ZVP?(g+gObSb[d-(]02!93e_6kks+]A%W<P!4x`*)j:LytKL>9g8uw<d=X5[JzV;}sU9H9[kLYSV+(V)I`i=HfN9~:Z%f)`[62Bmzj.-`pGEYSG([53CL&>Wz>@g6-q`=Cj7in>wqG_TM=.K{4wh.xWx%k*t-kDokyz%k%k{V]k&4HhdJAkw!W>=um;*_XGXmq85OUf<>9P[,S8T~,J2jx(<]JC1?lhu8+|em*g*Z+HR.=@=YmW56%a`T4fm?9vFjX2{Tt4}NGqtASFDT1yfzVMn2f&Fpvc^j^`J)rS?FC=fay@9v_T!C0-QRo+=f1Q3*L9{k_G?*NB0M<{T7[7^YB?2is8T?j-jf.aF?loRnRuejFqgk+{!(J6!-5K!T>/B!=)G<O$)cfDH&XWtvKDQ`xh<N%0KQ;c[jlYQ|O$6SI,1&~ZwYTE}FMW@KQ/G/ts9gy3|!{Q_QKFmV*.$G(Gmi*L8xxxAgKs)f5nHR1n)?fb,$c>l_6$k;g&hVSX%TaNg?;wUK{3K+rO0HG@?.U){S@I0SvQNMA-tBrIDP^XUw:fZdwMV8d:&Yt?O.R@N[O!3v>2QAq/,uWP>yWsO;Up@qpr+Q*au,<WxYz4m+&;wlh^;9?_@fO(2~.vv3.`7COM=ZY1;K3[tHo+9})*(n_f[Q`e&v?{^4j9BV9/wOh|n<lpnp4Ko|c}pdTVu{wr{_F8y+.c`/AO6$2<B{0ibFNjj<!n*K-=Lr<YBY(S<_Kd96+Q!z32K+r<S|?_nuUFdSa.*]rz1gY@)F--P$VFqlAlm[+*2]@-w4VPM+7fI24=cz;sJ@t$H*6sB.MKVS5hJG8E9<R_H7k5tYV5W01)Ly1(LeL*%VsgWY[j[NgB1mEM&AJ-5>u+rA%U*:ecH$xNO@,bv/;plU,b-}zf+7YOXd}<{!mn3CY24wou(_(TyqG3WR{T0qP7~g^?=u`0Aprd}[Lc{H*s#_g(cmE|;E+rCi;-8XXysaTZO,SmdqdE`Jjc(~+(R}omb?UaFqhER;F6Hy1n5hkE;N{TD+pBzE2]1*XTHy2PB@V:9sh>&Ei1re@bvTkp8w{IE+x^dM*o@T#2>1Vjr+h:Q0_n.DD;/K:Al~lCNd5<s0J%]GnrU:s$^Smm@-R%o+3wh.:v|?D$ud.]V?b[g[~bL?QH_lV_q:HL*H3?m_^B1WG-7]9mdeL3]2eOBP(@`-c$uzxn,@4BC~t18QTj3ntp-yuA(M5sRA?%MruJm14vo+gk%R.v/!et+7{H<`4V@s4@k2kd`[[dZ}XY!1K2-fm16|2=s3]7JZu2,F.hYf}`L/ez#x$l}Gjq9cxEb$}!DdY%N}ddfvm1+hac;4vJG8SQUSk3H@U7S)[E1lH-)k]w}waku^e4c$UGL}swF]FOr+[8]+I)Tu4|]zt&*((lzHQ7+.^$yB#@^,NdNHRdO7Wrn6qn-$ek:.)p+n,O7D#vW<*i2sqb9|svtpGmDOd#7:p#xR>u=qKP-tt$q_j:PR]zVe-tK?h_RLs_oNAzt0$1P2-.UQu0;CPZs!,pn|nsAPG?.7M/V&AE9_4ni6r_%M1{v$3cIExkmft{92wdj4j}Z-Y9aAPKLM8h_j|m`wIi{MS5eQ+qC3!4loqx,zjDDmm{^NbN.{K2=^{`<(@i`!Im.+?T&zXvP==zy->0#p_`wUEEme-B}0,G4k@4aKt64AWKg7-06|4qtSomi--KK>5m[$O*wrqAVNAc3$1.94)hkHwGw,r!F}Sk%>d]1Myx8i4b/(s|nebNFgCG5bg%7>Ne$P)jlvK@<$PeV8by@!SA{9BaGwsP8g2$zYt16jO*2{AQC[D8lSkS)JX@*nD:L$C5cMcv|+QhX8?_!Q>?BXo1u/48f0A1`+=9lzgpTCFkW.d]{P;9,bXjC^K:~]98Xg`X$(Dok/gI`vK<jzNF,$PXw!2GrZI07_Xbpu3Mi<PdIGrxAqCQ4zHkqwTO_SFACUee}{]MgZ<B^1+w.:PpLjA5XkReD(a&w.GEkgQ|6-oEthky,C.BUFS{-rq[f!(X)R?fMdc;y{3>s/W)k~igPu#aPX[Rg<3m7Ic]YgdI@e>Z#qQqoh-UwIq!xMHqmw:V7hC~6{?Y)&V)Y*5=dN!ye&L-G=n<PZ_o_#(12c5{dbxgm{|nw|22W7kKUL!Im/_QgTHld/uAZL5{XFYf!L^q&0P;r4}/<)IK`d9vI9#@nq~]kOi1#bjk<2-`tO9q5-;qC<HO(dWt5lX~mh/~qw^u[L5#F#{H,Cm@%84:0QT.;33!>_=Qku*Y*7LI8ueE@}W=L4u+Sj!xATMNzvagu$Ck[w:[s~90mO0;a,*smZX@SfUi)whJ/|{B&i.m/7?eSnm!6#&n*bavLpzmk[x>u-VdJW@Z.VtT*[9#:`bnNbZ1RUPbgT3DZADkqKe!Xr,~85hhV(<hHz_n:7t.WjrUaWGmvWuGV5;r<Q+1:jt6[SK:,N^3;5c@^Rf;)%G0(n0t-G7mr2pQXp^r;(F<OYGC6c4_dV!r>7nv=sKQPET>_b_d?H~31~/~<qd4Qz*dX>6MK]LGf|fMw6DA/WK,..)gsm~&S/uRFo5Q1vSahk^_bb[,dnc=EkXTabuuN$v/]eJ=NLsiN2%^z|ts++]Pr&6-sgV+rO2MWouS?d[f8fE||:-=Mg1MLfA~%+3)yaz]GFL:BN7]24XC.<4N=P=1+Q2Z{@=J19D_Qqg0]FDhP0aho>,pyomo]%<r(d>5xc@oS#2>}(Ds/,1KGPP>O-STj$4KNM&qKJ{cvDv;OgHLMhOBuC1.Asi/P_O=g(gdKg.(ux)Z7,&N1nB53n7ivRfjP@s{~z@0oLd%(!uujwr)wV`/`^So@DY])4:zXVDxE&.BZ)p,.t~(GzfI[25$GHaHW,u&98~8^)gcJXGT?I(DGr|!q1ReS],wBCN$yFl?:`zQxLUq).lMktAkpJiW=9hCiUBqUz]q_wgh(a>5(:q5Tu%aVhWB|$;Kl/[|t}-8-NL5]VLgpk0CG>Raozq^G,wZ8VO{hue}=uKQwY$QBGY^=CeLHe@n!YVZIov$+6q@BVwere7Gt$)&2xtn#e?cn#*dq3_A!cek+YMJ+=I$r|v}=l*.0]FyW!A0_=mGn<~aBLVLg-hMZ5nfq}*(l%qC(hvKEgE`!1WgoH<&[zy*eW!s(-(H&(zZi}|IGtnL!MF[t6tcUO>}Dc0eHj+d2iK_k[ud3OXzLb?X[_U=&.7=1#Q83~0XZ}WU%+(AMop~l-(?A!/7tXvLqMpuM`3RGV01h9hRU8BkX1RdGjpaK&DT!FM^!][f@Rgh8ZgFz`X?gH&7XS{A7noWwYDpW,7eCp6?`lYkfj}!_x?ex}wm@lM;LdMPiPZ`Z&sno+D:<G_wz<*~mHCzaa^rdw<eu3-1lU3viWG=eP|*|oMdYw6]t84^M@;U5sBFuby@=?^k{2R5_tcS>61ET<v^6_U%dW((b/h9x0h9;}d1)g5.sY|u7jOh+7-t-w._M|lU`MGSgdLowrF~O|OmJCU1.Q!aNxEHCzMell,X?6:+Jp|]F,)qqI(!C|*(XpS?TT=uhz<.O-xEk5G)Ux,22tYZ6%~x&(<e7UB<1^]RL%/OK9VY%v?ATdKIq+,X1FAH_n_:>1kb3-Mny|VS5E[jlh3sI}YOjiso;=>jdJVaH6+W*Ll!h6}7KkhLPs/n+l2y1IF:{i4_>Ya;Oa;{+AA;-+KP*]YH)~p$>1Sgz[PUjk(+8&zeFDuF4UUd=/f>6jC#%8N~,H[3vxu4rN&JTlLr)ln^nNcylV3Yf>LS:`s/]6e}bUb?LR<Svx4q266F33CHAm>|=?^pHqjGPta}me>-7i;6t$lly+n4b|mECJjH#-8H$;-!C9x,3Yx~[z;+`tN[OsT3*uStZzth]1h51N)US_hLlr;PU)hc5*<}%c,UK9)`mN-A]^k{f:)Re`qr?7(_whs[q{oju~)r@Wg8Iy*Tb:Vs0-qxFFzty$)CH9OR{),]Az^jPJS06DjJ?&)xl?e(Co9F8Cb,53ZAD13|Je/f:&peq2Z)Ja*tzlwC$#*yoBMtJ(r(yZ4MxY=kldqYKnc%K=BKWlMzL2C,.0MoruA)fmc{hpe_jD7],@?tE0cbIKaXSDUyP2/dW+N&W?3_em(5kn.{KCGW@,j|kK=O-Bu~rRDeIZDpW8+Wtrd1IeGgmhRs{*Zy)*~RJZF$65sZq^q?oH)qMieS4aUDMpnQN,R/}sIu$Z:(TQ;ze5cN`/o{k$?U9ET9h*V}p-.Fnf2;`Vx8kd>2Q~Plq&>sY7P/l3%S4D&BZi}:]b12rogYACo4k*9c/`HdpTV.AJE4:9kI[(B.)znfq1rh~<5USJ>^9Lu<VIX+dI?CA*(.mOfM>U*Gjv/9Wo{ht(Z]$Y;D_.@xuD/d%AW9,&5KcD(}kIww_V!`A:C>K|TD3/f]MFLo66bHE}0M-0cT@*G0fzvu_EsG/%CDR33NBajEj!v@yA=S{sYxLAZ>{buNT&4(cMwhEJ?}eMzWL^[(3lKjsCb2BT5/b*oaUAHRm+cWseNS^9oP7Tu6~@q/QL$K0XA*&!ufHd>*KHmPV4;Y]`/6w#JQ*tzwxW4Mxxn5,Aexl44WviWCJI={gU(l.<kcM>meI.D[/iF>uuH}Geg8RgK.hHby362EL3Wt%%|4CJt&F:ot#d!%/3RNqnqKEIMs5K+;ey#d9~,8tf+xkIT>6YX@>j5c*_68*)DWRs}8ZJdanqb/8@L)+Kw?C<-2W6i!b^QeEYb&s=7gY`r;SdgcAa9qLXK@umYlBom*%+p2i%^LHoj=NK;jqlkR>TCe-~m#?wp~e!H&5J?H?L{&J,?Tv)B_HQHpGe=(ys-O9y-@twieelEK7~L@sisHGkGZCAJCN]DM%ynRHBZ~lL*^A/bi+(pSN1r/VFCh{HP:N[FlFqx45+Vf3)7$lnGRm6`P&V.-/!>#.WVvl=c6C>H2ATg7n]sE0{Gc+nV?3$C2Oa~-ZW<WiM?WSrl*c~WnZT&WP0Kksq,[+m{%FW{D7,LGN&9?#vj8ScSwKifpL^O&zEP*%jXr5FN`>6kxu/3;hR5Br6)E7([HJBz[L+*sEpB3Jh59$~6]D^Q>*0x;LGNX25V3jO5^($AORYJP5d,<a^qeg?LQM7}5MLr`4M.4Mpk^u[x_2w(2l^MrA~),-uznArAwK&+N,!o80tma_@(4YS8g@Vl[c@6`9LSooFV0Qq:$Yn~Sj#]F6B*4)afCHhY;):q&LmZX{y<9r$J;dJNou=U+`r;U?p`@/d/u/G=Q[)N6Dp7Z+22Ol9DR1isqTdO>)^QyohkS3`aLnB-|Qs=XFaKC|G).9Y1m!_xae#?oT#h^Z_n2I(s.<t9:=MszZZ]Drh_)|W}^Q-2ECTbRlT@6D^)`qA_uuF_q{3obZdXSq@f+sGPGQU+xMMCTgC>asBgQ6PVP37r;v_6`pRb2BLjs7rWHGx$MMG(;<sQnd&;4e;@+7b+`@6D+^=LF55iMAMwa_/mE1AL*]OK,[>X~*9Yd5vz,DS20BMhZleQA!w<.{Y{;Fx+K+RaRTl4A71$2~i)EPXp>Cj%]c%*MoXeD4vF^n,95EjqO@0Wy|c(ccGRsGhWIOy1t#.e=smZ@bs;YkK-{3}~M3Wz6XV1aUTyN!HH!@Sb<z$x])GJ2IR/g#3/s?!i`h(r4YJ/b1IQp7S=WZf8Z1{rV/DO+Z2dbEHg{j}C`:~;l@&oMW&h`tBwiWn0rA;Ip:K9TU9~B0.r;7*,2c)vIArF/J4ABz&Ah:<w,m01im-D-lJS5cKa4{wcb]84HV+joHb}NqJ>hZ|k/37*,B~v^3Rqg=&6Vt?YIK$,XdS6T0x9G#o68wh%s{ZDC9&^lKz^go=oTls{]hR-u9atxo;r?j#AvoKi=tVs6h=]98jZ=JoNvvXNRT)4jaaC@5H<vV)@r3.5>(AYJp.TLdOSR.fBuMH0[M9j`=E3V6T#!k|)<o*24Xv5q8K=dK%H)To^!=c3zd,9f,<pF9Omb<tz/E&a{oTYPZ#[_P;rh<nJxQ~g/(iB:,<S)-=&WYrr]P,}T`n]#xXAbi$v>Fk=HYHlP`VS=5tLiOHJ=aspHZAanCvmGDt_TwPD1K1?P5[kib5@{8?u;Ntb2VjBwM^]6Kf5[tU|nC:+{t0<H_NW3kagkGqTwhl-VA4s0aD,Y*ee{v+Fxnfe}>;nZ!5ZS3)>T.4*:lZ+*zb.D#@Iw*.<(M])q?vPa4yH-_DqU-d.~n=!*ZlRrL|*B9T?E]BSbHFohep&W|l(SS<#yOWi;OX#Wh|59!jW^w2o,OyirUzd5ilx]K3wZ{+ZLG<CiB@k0CYz(5|K@389YodEcDLjAUQ&bjG.K:qlHgsNcH+^:T~{zeRY<%JPIqSY|7Tv5reI@&K__bDXqL|*Mvo_@*]fle([2hcxVNxI$`F8yas@]>W^HEN,V?o!agD%FxfDf?`*?y:v$GLQPw&**-~EltY@aQb&a=0xGv$4fu~a*<~3voI!8E|(6OHp]ZelE9f;yA9W*Ri$<RHYNS:pG3ss$*S;1cT5(&p<Mm@O:JT8_{8eaxe8)a;_}ev-ULC/~v:+ej|>k^[GNDYIbXWkcH#=h^X<OFd@l;(t%$lcnv]I%^vyiRJY_^sK_i}$yC!Htg)v0$YIWq@*ir/3j<84/w*3?+xbf)V-<G08Qr,p*-hGC`u*lHUC^..Rkja&$bw`j2jRn=TM=sh;Tj)+Z8zoYGd#k|Dq3F!C;>>%1,n2^1`@8izDKM:|1^CONTprEY,XUTGmKVHe%-Aa7}>ps6VM|@7`ro3d^josZ9ck9&y<Bnp.6]z$Pgr_3k42a%e8mdAbUf2g4%08ije`Z^,o*PE~~+7pU#iI!K?+0rT>y%r7e=<D~M6FrQeKRZpY/G>M3b])-iQ|&]!|{60CdVQ[Awu~C3fv}[*l7lheB[K}A_n@i2LP@`9;^Q?6]wY&^km+vX~|vFX@?:]AXbre]!$}{es>~<Fn,|Y9#$kMOasOC6RhAqNZwP1D4$%@:I?N97W{&:!E=O0[DRoC99_U4_7!lFsMJ;RDbE{X@B=)p>j/u=&.I-zhrS4[s+Xyqt)4||BV{O.-pb4h3RBH&U{V0+pH:7f/N64wwgMg<Aj@Aa7S.^mO^F$P+U)`hE%_hI!)JN/uK:EJLFZV$9mGkJ[,DcJLOpR?QbaPRerp)(z+x?=K;#rzXtr;1Z^u>f}H`n2qqGsgR-c8ue&VUKqec2);HbK`hR}(^&v{wUV)mS=I/K4S%*o<RS`S95rydp=hu}!3h_^*Z)Y1/OQ`j@#RKmH|I4Rl={ryel$X+oB$}&kMRr0Bex#Q`w#>PX}W`G<le)TCVfaSsF2Ssi-X5_2VG{NEk^CG?B>_/<DsK;=@t:#u5@YgBJ.xJnaIFJ@Jj)kEYhu%oIiz3ac<o}f70^=WW77o{_E/4LP,A*|d|d@E~e-dL+76W{c$t8]qy%DK<a0vvyK6F^duM@(6$9$37?|jPP)w)J%JpR9k.njDU*Qzg+Hu@rL|EM18A/IXn+>Qc9WvgJ@]|G#4;-@Oh}74p7mWY@g(2ZewAFVPRb$L>,NY.[[o|un[,hIky|?)Tuh}>~Q!os1OY+G+<E<aeTfMBsgrV?AL/9K=_NV`Al6[A7-@-Te2!i*cIkq@9LNpO0x=>AutH:6=JK_4_hi41A7}Lvx3cNh@+?VeS?;m+Ci(,F-yKu>4()0mZEAGQ16Mec|#C#YAq@}EWSqLqQ.,GL|vrg|Z7Eb<BTMtqmKFDe~`68@[F3ie=rZ!,9$x$ceVxiAQAN2ZM-8G/$@@%BBP>#GN.V5?p(WUYk9|LEonuZTF9^iT.A|L6,%Mg16)V;DX^>40q$ZFTNk<mC9;TpWx~R(DF:^{os=tO2#tSwY9-w{OAwT)E5c$I:`Zt3ZV%J|N?((TPgI&1r?gn98m0~b6&)L1&Tioqa4O^uPsg%9M5^mfOPv,djf${w<RM8J{#JC5U^8l)^8TnZz>yf3fs|1m-Q`[1GEp$Zo&mBn]`V$M/nze+:o/K,7AeMQFNA88wY`IWZ6B/k/KdpUzA4}7;#h#:nA*<RsU3??9axt+2ZnQL3DcP$=VpV@cJ{gNesxOo}}}659k3)tVDbQ]y[mJ*n1P<zA=hS.LzCi(pKv%@A|F/Y6Ma}i3Zx}ol9?ss*zt|CaiM_0fw00.{CJcBv0?[iA[wE`l4k>Wk[h>#_/se}{6p@y9<w:&,y9E~x$;i|Gu8}x.o#5ou<vQz[Yw.3h*j%YP-YK`4&hU=4k`a>^;$)oQ,sP!dH/J)51gt&`T*bv2J{N<q%GHLznbZGv#]%1,$T#Dw84[-!{rA;,^Gaw97.oxaCzm#;>Q.FW&IN-X<;BjRiN&zQe>o2q!6]h435B3QC^2QAjO[,5Y3$5t^39s+9:m[T)L,]eMv/udJSh;ttH,Hx$Q~@e6/43#$T3=b{N-PcFjh$bqwfL^8nT}u(^|`Ox`pm,rOoQ+1^Fzc8FzHoUXH.Ba*e&F2AFRd=&bgEk9/BIRYrIg#wuws$@mBAr+$9k9]#OP8GK>lFhXAiS3rAI6Ez2A7OH]Kh~Mp|S/P$Sk~Cw*LfAP``D?zt]cID,@v@G=K/K=-nvQcm))k)DL`_<1J~j&8*<.LcvJt`l=K`EB|%vKL!&[>^sQ*thxXAwgx5%De9y3jWmuiD&ihSE2(m~>r|kJu,{p&I{[P^~$AaJhy9n`CyZr*T5CMy/afOeeGZGfC^?LE@h8&@W[[lnK&`hUeX05>2D`[sY1}dg>yo]m4~jH:^]6>GJ-t|*w8J7Tm^jPkNOQ:<~1@!N7axUX#$;7Tb5/jXNM(@[hC2&e*-:Lr%n]8&6>nude3M>:;1)eh&Z]|N}=0kSi4[_yK4[p_>xy,]YW:H_ZD1O4R3yI}oo#U<kgB*[/_FQ^pHe/_Ho)j(UA@`o_2[Q-3P3wY&W)XkbH=94]HRW[eiDBoA|g}j7/z<6oQ>#@Kkf;@l9ecnAP#Jn)!B0<YS,#D@MR/M4EZ>bj;9N5*}i!jMB4}~S^Vr~^ImDc7.G>=;+<axv[HP&}ufvhF]m&+XwdmD$?Cho@q|O)3x%b[8+&jAc=5EZV+F!RgROK$Mq!zxPlzlY15t9f08xqRmddAJe{G]uk$X6uj`GCc|GE1o3+O}}Ri_bA`J7_[aUX+ux[i#)U9#;O)J/Q({v(|Vtt>%7#/4vt`|)(;.RC.=uewOQR[VC<E_]4*#>9<:4`&bAC_L=1q%o)~6Rx8%h8vXsrvi+tSU3s4AHQSQDP$oY)y1DJzjFr~8T<TTh=pQH{kBUJ<V|f2VVVJy^0$I&dVKKB+&<ymMZy.;cLK`nS.-GqQ|Z~aBU9ta3kIdf1mh!_gnX<YoQ9G]wMx}S$4*Wtj:L0",
+            "span": [
+              0,
+              1
+            ],
+            "speed": 0.8999999999999999,
+            "fadeIn": 0.2,
+            "fadeOut": 0.4,
+            "looped": false,
+            "cancellable": false,
+            "target": "User",
+            "priority": 3
+          }
+        },
+        {
+          "type": "Velocity",
+          "id": 38,
+          "tags": [
+            "Velocity"
+          ],
+          "props": {
+            "space": "Global",
+            "power": 25,
+            "duration": 0.2,
+            "vector": [
+              0,
+              -1,
+              -1
+            ],
+            "maxForce": 1500000,
+            "scale": [
+              0,
+              1,
+              0
+            ],
+            "taper": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0.11168169975280762,
+                1,
+                0
+              ],
+              [
+                0.3259105086326599,
+                0,
+                0
+              ],
+              [
+                0.5100287795066833,
+                1,
+                0
+              ],
+              [
+                0.7759721279144287,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "aligned": false,
+            "cancellable": true,
+            "target": "User",
+            "victimImpact": "Visual"
+          }
+        },
+        {
+          "type": "Pushback",
+          "id": 28,
+          "props": {
+            "style": "Uppercut",
+            "space": "Global",
+            "velocity": [
+              0,
+              0,
+              -25
+            ],
+            "duration": 0.7,
+            "blend": 0.4,
+            "power": 140,
+            "scale": 0.9,
+            "flag8": true,
+            "flagA": true,
+            "flagD": true,
+            "failBranch": {
+              "mode": 0,
+              "value": "Unused"
+            },
+            "target": "User"
+          }
+        },
+        {
+          "type": "Sound",
+          "id": 30,
+          "tags": [
+            "Sound"
+          ],
+          "props": {
+            "soundId": "139220946175353",
+            "volume": 1.2000000000000002,
+            "playbackSpeed": 1.2000000000000002,
+            "rolloff": [
+              10,
+              150
+            ],
+            "rolloffMode": 0,
+            "playbackRegion": [
+              0,
+              600000
+            ],
+            "volumeCurve": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0.5225828886032104,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "looped": true,
+            "cancellable": true
+          }
+        },
+        {
+          "type": "Effect",
+          "id": 14,
+          "tags": [
+            "Effect"
+          ],
+          "props": {
+            "effect": "Damage",
+            "color": {
+              "mode": 1,
+              "value": [
+                255,
+                255,
+                255,
+                1
+              ]
+            },
+            "flag": {
+              "mode": 0,
+              "value": false
+            },
+            "speed": 0.9,
+            "scale": 1.25,
+            "extra6": 1.4000000000000001,
+            "extra7": 1.4000000000000001,
+            "extra8": 1.1,
+            "position": [
+              0,
+              0,
+              -1
+            ],
+            "orientation": [
+              0,
+              0,
+              1
+            ],
+            "target": "User",
+            "attachTo": "Root Part"
+          }
+        },
+        {
+          "type": "Particle",
+          "id": 25,
+          "tags": [
+            "Particle"
+          ],
+          "props": {
+            "color": [
+              [
+                0,
+                255,
+                255,
+                255,
+                1
+              ],
+              [
+                1,
+                255,
+                255,
+                255,
+                1
+              ]
+            ],
+            "emitDuration": 0,
+            "emitCount": 1,
+            "lightInfluence": 0,
+            "brightness": [
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                1,
+                2,
+                0
+              ]
+            ],
+            "transparency": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "texture": "128421429334101",
+            "curve8": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0.35832875967025757,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "lightEmission": 1,
+            "rate": 70,
+            "size": [
+              0.4,
+              0.4
+            ],
+            "rotation": [
+              0,
+              0
+            ],
+            "speed": [
+              0,
+              0
+            ],
+            "spread": [
+              90,
+              90
+            ],
+            "rateRange": [
+              60,
+              60
+            ],
+            "zOffset": 10,
+            "orientation": [
+              0,
+              0,
+              0
+            ],
+            "useGroundColor": 0,
+            "clientOnly": 0,
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "locked": 1,
+            "worldOffset": [
+              0,
+              0,
+              0
+            ],
+            "lifetime": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "SpecialFX",
+          "id": 31,
+          "tags": [
+            "SpecialFX Outline"
+          ],
+          "props": {
+            "effect": "Outline",
+            "color": [
+              [
+                0,
+                255,
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                255,
+                0,
+                0,
+                1
+              ]
+            ],
+            "transparency": [
+              [
+                0,
+                0.5,
+                0
+              ],
+              [
+                1,
+                0.5,
+                0
+              ]
+            ],
+            "size": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "time": [
+              2,
+              2
+            ],
+            "offsetX": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "curveA": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "alwaysOnTop": true,
+            "rotZ": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "target": "User",
+            "rotX": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "scale": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "offsetY": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "attachTo": "Root Part",
+            "offsetZ": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "rotY": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "type": "MeshFX",
+          "id": 22,
+          "tags": [
+            "Mesh FX"
+          ],
+          "props": {
+            "effect": "7520988504/",
+            "color": [
+              [
+                0,
+                0,
+                0,
+                255,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                255,
+                1
+              ]
+            ],
+            "transparency": [
+              [
+                0,
+                0.5,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "time": [
+              0.2,
+              0.2
+            ],
+            "fade": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "outlineColor": [
+              [
+                0,
+                255,
+                255,
+                255,
+                1
+              ],
+              [
+                1,
+                255,
+                255,
+                255,
+                1
+              ]
+            ],
+            "position": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "attachTo": "Root Part",
+            "target": "User",
+            "outlineFade": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "scale": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    15,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    15,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    15,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "meshId": 288,
+            "rotation": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "fillColor": [
+              [
+                0,
+                255,
+                255,
+                255,
+                1
+              ],
+              [
+                1,
+                255,
+                255,
+                255,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "type": "MeshFX",
+          "id": 22,
+          "tags": [
+            "Mesh FX 2"
+          ],
+          "props": {
+            "effect": "7520988504/",
+            "color": [
+              [
+                0,
+                0,
+                0,
+                255,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                255,
+                1
+              ]
+            ],
+            "transparency": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "time": [
+              0.2,
+              0.2
+            ],
+            "fade": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "outlineColor": [
+              [
+                0,
+                255,
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                255,
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "attachTo": "Root Part",
+            "target": "User",
+            "outlineFade": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "scale": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    15,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    15,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    15,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "meshId": 288,
+            "rotation": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "fillColor": [
+              [
+                0,
+                0,
+                255,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                255,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "type": "LightningFX",
+          "id": 19,
+          "tags": [
+            "LightningFX"
+          ],
+          "props": {
+            "color": [
+              [
+                0,
+                150,
+                150,
+                150,
+                1
+              ],
+              [
+                1,
+                150,
+                150,
+                150,
+                1
+              ]
+            ],
+            "width": [
+              [
+                0,
+                1.5,
+                0
+              ],
+              [
+                1,
+                1.5,
+                0
+              ]
+            ],
+            "radiusVariance": [
+              0.5,
+              2
+            ],
+            "thickness": [
+              1,
+              2
+            ],
+            "startOffset": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    -5,
+                    0
+                  ],
+                  [
+                    1,
+                    -5,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "endOffset": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    -35,
+                    0
+                  ],
+                  [
+                    1,
+                    -35,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "curve8": [
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                1,
+                2,
+                0
+              ]
+            ],
+            "curve9": [
+              [
+                0,
+                15,
+                0
+              ],
+              [
+                1,
+                15,
+                0
+              ]
+            ],
+            "curveA": [
+              [
+                0,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                0
+              ]
+            ],
+            "smoothness": 60,
+            "segments": 256,
+            "curveB": [
+              [
+                0,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                0
+              ]
+            ],
+            "startTarget": "User",
+            "endTarget": "User",
+            "startAttach": "Root Part",
+            "endAttach": "Root Part",
+            "outlineColor": [
+              [
+                0,
+                255,
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                255,
+                0,
+                0,
+                1
+              ]
+            ],
+            "target": "User",
+            "outlineFade": [
+              [
+                0,
+                0.5,
+                0
+              ],
+              [
+                1,
+                0.5,
+                0
+              ]
+            ],
+            "animSpeed": [
+              [
+                0,
+                1.1,
+                0
+              ],
+              [
+                1,
+                1.1,
+                0
+              ]
+            ],
+            "fade": [
+              [
+                0,
+                0.5,
+                0
+              ],
+              [
+                1,
+                0.5,
+                0
+              ]
+            ],
+            "frequency": [
+              0.5,
+              2
+            ],
+            "curveO": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "fillColor": [
+              [
+                0,
+                150,
+                150,
+                150,
+                1
+              ],
+              [
+                1,
+                150,
+                150,
+                150,
+                1
+              ]
+            ],
+            "curveP": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "cyclic": true
+          }
+        },
+        {
+          "type": "Variant",
+          "id": 36,
+          "tags": [
+            "Variant"
+          ],
+          "props": {
+            "expireCooldown": 1,
+            "useBranch": true,
+            "useDisplay": true,
+            "duration": {
+              "mode": 0,
+              "value": 1
+            },
+            "displayName": {
+              "mode": 0,
+              "value": "Variant Name"
+            },
+            "toolTip": {
+              "mode": 0,
+              "value": "Variant Tool Tip"
+            },
+            "flashColor": {
+              "mode": 0,
+              "value": [
+                255,
+                0,
+                0,
+                1
+              ]
+            },
+            "branchTo": {
+              "mode": 0,
+              "value": "BranchTo"
+            }
+          }
+        },
+        {
+          "type": "CancelTypes",
+          "id": 6,
+          "tags": [
+            "Cancel"
+          ],
+          "props": {
+            "window": {
+              "mode": 0,
+              "value": 2
+            },
+            "animation": true,
+            "skill": false,
+            "velocity": false,
+            "sound": true,
+            "effect": true,
+            "particle": true,
+            "hitbox": true,
+            "projectile": true,
+            "camera": true,
+            "state": true,
+            "move": true
+          }
+        },
+        {
+          "type": "CancelTags",
+          "id": 7,
+          "tags": [
+            "Tag Cancel"
+          ],
+          "props": {
+            "tag": "Tag Name Here",
+            "mode": "Local"
+          }
+        },
+        {
+          "type": "HitDetect",
+          "id": 17,
+          "tags": [
+            "Hit Detect"
+          ],
+          "props": {
+            "minHits": 0,
+            "maxHits": 1,
+            "window": 6,
+            "flagA": true,
+            "flagB": true,
+            "ifBlocked": {
+              "mode": 0,
+              "value": true
+            },
+            "ifLastHit": {
+              "mode": 0,
+              "value": true
+            },
+            "healthInRange": {
+              "mode": 0,
+              "value": [
+                0,
+                25
+              ]
+            },
+            "onHit": {
+              "mode": 0,
+              "value": "Victim Branch"
+            },
+            "onBlocked": {
+              "mode": 0,
+              "value": "BranchTo"
+            }
+          }
+        },
+        {
+          "type": "Hitbox",
+          "id": 18,
+          "tags": [
+            "Hitbox"
+          ],
+          "props": {
+            "size": [
+              6,
+              6,
+              7
+            ],
+            "position": [
+              0,
+              0,
+              -1
+            ],
+            "orientation": [
+              0,
+              0,
+              1
+            ],
+            "destroyPower": 2,
+            "havocScale": 0.5,
+            "bypassEverything": true,
+            "maxHits": 1,
+            "duration": 6,
+            "dealer": true,
+            "blockable": true,
+            "branchHit": {
+              "mode": 0,
+              "value": "BranchTo"
+            },
+            "healthInRange": {
+              "mode": 0,
+              "value": [
+                0,
+                25
+              ]
+            },
+            "hitPriority": 2,
+            "branchBlocked": {
+              "mode": 0,
+              "value": "Victim Branch"
+            },
+            "hitRagdoll": true,
+            "attachTo": "Root Part",
+            "mode": 2,
+            "branch": {
+              "mode": 0,
+              "value": "Unused"
+            },
+            "target": "User",
+            "pointsQuery": {
+              "mode": 0,
+              "value": "Name of Point"
+            },
+            "counterTier": 1,
+            "blockAngle": 95,
+            "havocType": "Erase",
+            "hitStyle": 2,
+            "hitUser": true
+          }
+        },
+        {
+          "type": "Projectile",
+          "id": 27,
+          "tags": [
+            "Saucer Projectile"
+          ],
+          "props": {
+            "radius": 2,
+            "position": [
+              0,
+              0,
+              -1
+            ],
+            "orientation": [
+              0,
+              0,
+              -1
+            ],
+            "speed": 2,
+            "lifetime": 55,
+            "hits": 2,
+            "hitType": "Debris",
+            "branchTo": {
+              "mode": 0,
+              "value": "BranchTo"
+            },
+            "branchCollide": {
+              "mode": 0,
+              "value": "Projectile Collide"
+            },
+            "spread": [
+              0,
+              1
+            ],
+            "target": "User",
+            "aim": "Mouse",
+            "branchPierce": {
+              "mode": 0,
+              "value": "Projectile Pierce"
+            },
+            "power": 5,
+            "pierce": 2,
+            "victimBranch": {
+              "mode": 0,
+              "value": "Victim Branch"
+            },
+            "failBranch": {
+              "mode": 0,
+              "value": "Unused"
+            },
+            "behavior": "Bounce",
+            "path": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "Projectile",
+          "id": 27,
+          "tags": [
+            "Javelin Projectile"
+          ],
+          "props": {
+            "radius": 3,
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              0,
+              0,
+              1
+            ],
+            "speed": 2,
+            "lifetime": 55,
+            "hits": 2,
+            "hitType": "Erase",
+            "branchTo": {
+              "mode": 0,
+              "value": "BranchTo"
+            },
+            "gravity": 3,
+            "branchCollide": {
+              "mode": 0,
+              "value": "Projectile Collide"
+            },
+            "spread": [
+              1,
+              0
+            ],
+            "target": "User",
+            "projectileType": "Javelin",
+            "aim": "Screen",
+            "branchPierce": {
+              "mode": 0,
+              "value": "Projectile Pierce"
+            },
+            "power": 5,
+            "pierce": 2,
+            "victimBranch": {
+              "mode": 0,
+              "value": "Victim Branch"
+            },
+            "failBranch": {
+              "mode": 0,
+              "value": "Unused"
+            },
+            "behavior": "Bounce",
+            "path": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "Projectile",
+          "id": 27,
+          "tags": [
+            "Living Projectile"
+          ],
+          "props": {
+            "radius": 3,
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              0,
+              0,
+              1
+            ],
+            "speed": 2,
+            "lifetime": 55,
+            "hits": 2,
+            "hitType": "Erase",
+            "branchTo": {
+              "mode": 0,
+              "value": "BranchTo"
+            },
+            "gravity": 3,
+            "branchCollide": {
+              "mode": 0,
+              "value": "Projectile Collide"
+            },
+            "spread": [
+              1,
+              0
+            ],
+            "target": "User",
+            "projectileType": "Living",
+            "aim": "Screen",
+            "branchPierce": {
+              "mode": 0,
+              "value": "Projectile Pierce"
+            },
+            "pathMode": "Positional",
+            "path": {
+              "mode": 0,
+              "value": [
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0.5015466213226318,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0.5015466213226318,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0.5015466213226318,
+                    -5,
+                    0
+                  ],
+                  [
+                    1,
+                    -10,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "bounces": 3,
+            "power": 5,
+            "pierce": 2,
+            "victimBranch": {
+              "mode": 0,
+              "value": "Victim Branch"
+            },
+            "arc": 5,
+            "failBranch": {
+              "mode": 0,
+              "value": "Unused"
+            },
+            "behavior": "Bounce"
+          }
+        },
+        {
+          "type": "Branch",
+          "id": 5,
+          "tags": [
+            "Branch Block"
+          ],
+          "props": {
+            "branchTo": "BranchTo",
+            "blockIndex": 2,
+            "chance": 99,
+            "subsidiary": true,
+            "wait": true,
+            "target": "User"
+          }
+        },
+        {
+          "type": "Points",
+          "id": 26,
+          "tags": [
+            "Points Block"
+          ],
+          "props": {
+            "stat": "Name of Point",
+            "mode": "+",
+            "value": 1,
+            "flag": {
+              "mode": 0,
+              "value": false
+            },
+            "target": "User"
+          }
+        },
+        {
+          "type": "Points",
+          "id": 26,
+          "tags": [
+            "Points Query Block"
+          ],
+          "props": {
+            "stat": "Name of Point",
+            "mode": "==",
+            "value": 1,
+            "failBranch": "BranchTo",
+            "conditional": true,
+            "subsidiary": true,
+            "flag": {
+              "mode": 0,
+              "value": false
+            },
+            "target": "User"
+          }
+        },
+        {
+          "type": "Modifier",
+          "id": 23,
+          "tags": [
+            "Modifier"
+          ],
+          "props": {
+            "data": "8?kQ<YAHq8#5=zr<3:=!u%TXHEcQqlPF7Yu!]+1<1kZ^9OgO>td5x9BpWY=Suu^>zgknO4B><i~y4At{zW!IG|P##d62Nz5GYtcg}=le[%9fg.|P6w>Wos`nnn~l_6l;m|rP[VsqABW:uK<q[6r|95He3",
+            "flag4": true,
+            "flag5": false,
+            "duration": 1,
+            "power": 65,
+            "position": [
+              0,
+              0,
+              -1
+            ],
+            "orientation": [
+              0,
+              0,
+              -1
+            ],
+            "flagC": true,
+            "target": "User",
+            "parent": "Storage",
+            "alignment": "XZ",
+            "partName": "Test Part"
+          }
+        },
+        {
+          "type": "Modifier",
+          "id": 23,
+          "tags": [
+            "Modifier 2"
+          ],
+          "props": {
+            "data": "8?kQ<YAHq8#5=zr<3:=!u%TXHEcQqlPF7Yu!]+1<1kZ^9OgO>td5x9BpWY=Suu^>zgknO4B><i~y4At{zW!IG|P##d62Nz5GYtcg}=le[%9fg.|P6w>Wos`nnn~l_6l;m|rP[VsqABW:uK<q[6r|95He3",
+            "pulse": true,
+            "flag5": false,
+            "duration": 1,
+            "power": 65,
+            "position": [
+              0,
+              0,
+              -1
+            ],
+            "orientation": [
+              0,
+              0,
+              -1
+            ],
+            "target": "Target",
+            "parent": "Workspace",
+            "fixPulseTarget": true,
+            "flagC": true,
+            "alignment": "XZ",
+            "partName": "Test Part"
+          }
+        },
+        {
+          "type": "ChangeDisplay",
+          "id": 8,
+          "tags": [
+            "Change Display"
+          ],
+          "props": {
+            "displayName": {
+              "mode": 0,
+              "value": "Change Display Name"
+            },
+            "toolTip": {
+              "mode": 0,
+              "value": "Change Display Tool Tip"
+            },
+            "color": {
+              "mode": 0,
+              "value": [
+                0,
+                255,
+                0,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "type": "State",
+          "id": 34,
+          "tags": [
+            "State Block"
+          ],
+          "props": {
+            "value": false,
+            "undoOnEnd": false,
+            "durationAlt": 3,
+            "target": "User",
+            "state": "True Stun",
+            "duration": 3
+          }
+        },
+        {
+          "type": "State",
+          "id": 34,
+          "tags": [
+            "State Block 2"
+          ],
+          "props": {
+            "value": false,
+            "undoOnEnd": false,
+            "durationAlt": 3,
+            "target": "User",
+            "state": "Damage",
+            "duration": 3
+          }
+        },
+        {
+          "type": "Grab",
+          "id": 15,
+          "tags": [
+            "Grab Block"
+          ],
+          "props": {
+            "userPart": "Torso",
+            "victimPart": "Torso",
+            "position": [
+              0,
+              0,
+              -1
+            ],
+            "weld": true,
+            "duration": 2,
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "target": "User",
+            "face": 1,
+            "orient": false,
+            "track": true
+          }
+        },
+        {
+          "type": "Counter",
+          "id": 9,
+          "tags": [
+            "Counter Block"
+          ],
+          "props": {
+            "duration": 2,
+            "stun": 2,
+            "maxUses": 2,
+            "overrides": 2,
+            "branchTo": {
+              "mode": 0,
+              "value": "BranchTo"
+            },
+            "hitBranchTo": {
+              "mode": 0,
+              "value": "Victim Branch"
+            },
+            "flag": false,
+            "target": "User",
+            "behavior": "Deflect"
+          }
+        },
+        {
+          "type": "Loop",
+          "id": 21,
+          "tags": [
+            "Loop Block"
+          ],
+          "props": {
+            "previous": 0,
+            "maxLoops": 6,
+            "minLoops": 1,
+            "flag": false,
+            "untilFlag": {
+              "mode": 0,
+              "value": true
+            },
+            "untilValue": {
+              "mode": 0,
+              "value": 2
+            },
+            "untilAwakening": {
+              "mode": 0,
+              "value": [
+                50,
+                105
+              ]
+            },
+            "untilHealth": {
+              "mode": 0,
+              "value": [
+                0,
+                100
+              ]
+            }
+          }
+        },
+        {
+          "type": "Look",
+          "id": 20,
+          "tags": [
+            "Look Block"
+          ],
+          "props": {
+            "duration": 2,
+            "range": 50,
+            "scale": [
+              1,
+              0,
+              1
+            ],
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "flag": true,
+            "target": "User",
+            "lookFrom": "User",
+            "lookAt": "Mouse"
+          }
+        },
+        {
+          "type": "Move",
+          "id": 40,
+          "tags": [
+            "Regular Move Block"
+          ],
+          "props": {
+            "useOrientation": true,
+            "duration": 2,
+            "response": 35,
+            "position": [
+              0,
+              0,
+              -15
+            ],
+            "orientation": [
+              0,
+              0,
+              5
+            ],
+            "mode": "Local",
+            "from": "User",
+            "to": "User",
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Move",
+          "id": 40,
+          "tags": [
+            "Teleport Move Block"
+          ],
+          "props": {
+            "teleport": true,
+            "duration": 2,
+            "response": 35,
+            "position": [
+              0,
+              0,
+              -15
+            ],
+            "orientation": [
+              0,
+              0,
+              5
+            ],
+            "mode": "Local",
+            "from": "User",
+            "to": "User",
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "CameraShake",
+          "id": 1,
+          "tags": [
+            "Camera Shake Block"
+          ],
+          "props": {
+            "enabled": true,
+            "offsetA": [
+              0,
+              0,
+              1
+            ],
+            "range": [
+              1,
+              1,
+              2
+            ],
+            "offsetB": [
+              0,
+              0,
+              1
+            ],
+            "extra5": 6,
+            "intensity": 4,
+            "speed": 20,
+            "fadeIn": 0.2,
+            "fadeOut": 2,
+            "target": "User"
+          }
+        },
+        {
+          "type": "AddAwakening",
+          "id": 0,
+          "tags": [
+            "Add Awakening Block"
+          ],
+          "props": {
+            "value": 15,
+            "target": "User"
+          }
+        },
+        {
+          "type": "AddCooldown",
+          "id": 2,
+          "tags": [
+            "Add Cooldown Block"
+          ],
+          "props": {
+            "cooldown": 15,
+            "flagA": true,
+            "flagB": true
+          }
+        },
+        {
+          "type": "AddHealth",
+          "id": 3,
+          "tags": [
+            "Add Health Block"
+          ],
+          "props": {
+            "value": 15,
+            "target": "User"
+          }
+        },
+        {
+          "type": "Crater",
+          "id": 10,
+          "tags": [
+            "Crater Block"
+          ],
+          "props": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "depth": 5,
+            "spread": [
+              10,
+              15
+            ],
+            "scale": [
+              1,
+              1,
+              2
+            ],
+            "extraA": [
+              0,
+              1
+            ],
+            "extraB": [
+              0,
+              1
+            ],
+            "extra9": 1,
+            "extraA2": 1,
+            "rate": 25,
+            "rateB": 25,
+            "angle": [
+              15,
+              20
+            ],
+            "extraD": 1,
+            "target": "User",
+            "radiusDepth": [
+              50,
+              100
+            ],
+            "rings": 3
+          }
+        },
+        {
+          "type": "DomainEffect",
+          "id": 13,
+          "tags": [
+            "Domain Effect Block"
+          ],
+          "props": {
+            "animation": "Attacks/Gojo/Singularity Red/Hit",
+            "span": [
+              0,
+              1
+            ],
+            "speed": 1.5,
+            "fade": 0.2,
+            "position": [
+              0,
+              0,
+              5
+            ],
+            "fov": 105,
+            "time": 4,
+            "scalePosition": [
+              0.5,
+              0.6
+            ],
+            "scaleSize": [
+              1.25,
+              0.3
+            ],
+            "ease": 2,
+            "cameraFov": 60,
+            "cameraPosition": [
+              0,
+              7,
+              15
+            ],
+            "cameraEaseT": 0.8,
+            "cameraEase": 0.5,
+            "cameraOrientation": [
+              -10,
+              180,
+              5
+            ],
+            "vpLightDirect": [
+              -1,
+              0,
+              1
+            ],
+            "cameraFovValue": 60,
+            "vpAmbientColor": [
+              255,
+              0,
+              0,
+              1
+            ],
+            "vpLightColor": [
+              0,
+              255,
+              0,
+              1
+            ],
+            "fogColor": [
+              150,
+              150,
+              150,
+              1
+            ],
+            "bgColor": [
+              15,
+              15,
+              15,
+              1
+            ],
+            "skyId": "12810614478",
+            "fillColor": [
+              252,
+              251,
+              250,
+              1
+            ],
+            "exposure": -4
+          }
+        },
+        {
+          "type": "Dialogue",
+          "id": 12,
+          "tags": [
+            "Dialogue Block"
+          ],
+          "props": {
+            "dialogueType": "Tekrinn",
+            "range": 150,
+            "duration": 4,
+            "text": "Dialogue Goes Here",
+            "textColor": [
+              [
+                0,
+                255,
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                255,
+                0,
+                0,
+                1
+              ]
+            ],
+            "textWidthPad": 0.5,
+            "textHeightPad": 0.2,
+            "scale": [
+              3,
+              6
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "worldOffset": [
+              3.5,
+              2,
+              1
+            ],
+            "target": "User",
+            "characterIcon": "12810614478"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Deprecated",
+      "flashColor": {
+        "mode": 1,
+        "value": [
+          255,
+          255,
+          255,
+          1
+        ]
+      },
+      "conditions": [],
+      "nodes": [
+        {
+          "type": "HitCancel",
+          "id": 16,
+          "tags": [
+            "Deprecated Hit Cancel"
+          ],
+          "props": {
+            "enabled": true,
+            "time": 2,
+            "extra3": 2,
+            "branchTo": {
+              "mode": 0,
+              "value": "BranchTo"
+            }
+          }
+        },
+        {
+          "type": "StateV1",
+          "id": 33,
+          "tags": [
+            "Deprecated State V1"
+          ],
+          "props": {
+            "undoWhenFinished": false,
+            "attacking": {
+              "mode": 0,
+              "value": true
+            },
+            "cancellable": {
+              "mode": 0,
+              "value": true
+            },
+            "lockCamera": {
+              "mode": 0,
+              "value": true
+            },
+            "multiplyWalk": {
+              "mode": 0,
+              "value": 1
+            },
+            "divideWalkSpeed": {
+              "mode": 0,
+              "value": 1
+            },
+            "stunDuration": {
+              "mode": 0,
+              "value": 1
+            },
+            "damage": {
+              "mode": 0,
+              "value": 10
+            },
+            "extra9": {
+              "mode": 0,
+              "value": 0
+            },
+            "characterCollision": {
+              "mode": 0,
+              "value": "Default"
+            },
+            "characterAnchor": {
+              "mode": 0,
+              "value": true
+            },
+            "iFrames": {
+              "mode": 0,
+              "value": "BackdashIFrames"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "BranchTo",
+      "flashColor": {
+        "mode": 1,
+        "value": [
+          255,
+          255,
+          255,
+          1
+        ]
+      },
+      "conditions": [],
+      "nodes": []
+    },
+    {
+      "name": "Victim Branch",
+      "flashColor": {
+        "mode": 1,
+        "value": [
+          255,
+          255,
+          255,
+          1
+        ]
+      },
+      "conditions": [],
+      "nodes": []
+    },
+    {
+      "name": "Unused",
+      "flashColor": {
+        "mode": 1,
+        "value": [
+          255,
+          255,
+          255,
+          1
+        ]
+      },
+      "conditions": [],
+      "nodes": []
+    },
+    {
+      "name": "Projectile Pierce",
+      "flashColor": {
+        "mode": 1,
+        "value": [
+          255,
+          255,
+          255,
+          1
+        ]
+      },
+      "conditions": [],
+      "nodes": []
+    },
+    {
+      "name": "Projectile Collide",
+      "flashColor": {
+        "mode": 1,
+        "value": [
+          255,
+          255,
+          255,
+          1
+        ]
+      },
+      "conditions": [],
+      "nodes": []
+    },
+    {
+      "name": "AutoBranch",
+      "autoBranch": true,
+      "displayName": {
+        "mode": 0,
+        "value": "Branch Display Name"
+      },
+      "toolTip": {
+        "mode": 0,
+        "value": "Branch Tool Tip"
+      },
+      "flashColor": {
+        "mode": 0,
+        "value": [
+          150,
+          150,
+          150,
+          1
+        ]
+      },
+      "kind": "Auto",
+      "priority": 2,
+      "conditions": [
+        {
+          "isAirborne": {
+            "mode": 0,
+            "value": true
+          },
+          "isSpaceDown": {
+            "mode": 0,
+            "value": true
+          },
+          "isHoldingKey": {
+            "mode": 0,
+            "value": true
+          },
+          "isAwakened": {
+            "mode": 0,
+            "value": true
+          },
+          "hasAwakening": {
+            "mode": 0,
+            "value": true
+          },
+          "healthInRange": {
+            "mode": 0,
+            "value": [
+              0,
+              25
+            ]
+          },
+          "pointsQuery": {
+            "mode": 0,
+            "value": "Point Condition"
+          },
+          "holdingItems": {
+            "mode": 0,
+            "value": "Holding Items"
+          },
+          "attackState": {
+            "mode": 0,
+            "value": "Running"
+          }
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "EventBranch",
+      "autoBranch": true,
+      "displayName": {
+        "mode": 0,
+        "value": "Branch Display Name"
+      },
+      "toolTip": {
+        "mode": 0,
+        "value": "Branch Tool Tip"
+      },
+      "flashColor": {
+        "mode": 0,
+        "value": [
+          150,
+          150,
+          150,
+          1
+        ]
+      },
+      "kind": "Event",
+      "priority": 2,
+      "conditions": [
+        {
+          "isAirborne": {
+            "mode": 0,
+            "value": false
+          },
+          "isSpaceDown": {
+            "mode": 0,
+            "value": false
+          },
+          "isHoldingKey": {
+            "mode": 0,
+            "value": false
+          },
+          "isAwakened": {
+            "mode": 0,
+            "value": false
+          },
+          "hasAwakening": {
+            "mode": 0,
+            "value": false
+          },
+          "healthInRange": {
+            "mode": 0,
+            "value": [
+              0,
+              25
+            ]
+          },
+          "pointsQuery": {
+            "mode": 0,
+            "value": "Point Condition"
+          },
+          "holdingItems": {
+            "mode": 0,
+            "value": "Holding Items"
+          },
+          "attackState": {
+            "mode": 0,
+            "value": "Running"
+          }
+        }
+      ],
+      "nodes": []
+    }
+  ]
+}
