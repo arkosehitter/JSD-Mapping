@@ -1,4 +1,3 @@
-
 # JSD Mapping
 
 ## Introduction
@@ -10,6 +9,7 @@ Exported skills are Base91 + zlib. After decompress you get JSON with short keys
 ## Credits
 
 **Me (@endrosity)** - Mapping & .json.
+
 **Axvaud (@axvaud)** - Skill data with everything in it so I could map everything a bit easier.
 
 ## Files
