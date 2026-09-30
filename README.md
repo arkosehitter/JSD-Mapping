@@ -1,5 +1,5 @@
 
-# JSD Skill Format Map
+# JSD Mapping
 
 ## Introduction
 
